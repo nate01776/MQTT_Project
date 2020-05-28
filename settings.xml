@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="bed04c96-8f3c-45f8-b03d-e7b7b984cf9a" created="3.1.0" activeEnvironment="Default environment" name="MQTT Project" resourceRoot="" updated="3.2.7" encryptionMode="Not encrypted" abortOnError="false" runType="SEQUENTIAL" soapui-version="5.5.0" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+  <con:description>MQTT Project to validate</con:description>
   <con:settings>
     <con:setting id="bed04c96-8f3c-45f8-b03d-e7b7b984cf9afileName">MQTT-Project</con:setting>
   </con:settings>
