@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="2d3dabeb-e548-42df-a432-cd01e3900458" name="bad change" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="2d3dabeb-e548-42df-a432-cd01e3900458fileName">bad-change</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
