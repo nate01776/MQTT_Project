@@ -3,6 +3,27 @@
   <con:settings>
     <con:setting id="30603750-9599-429f-a822-cecf49007ca7fileName">another-conflict-maybe</con:setting>
   </con:settings>
+  <con:testStep type="restrequest" name="addPet - Request 1" id="a37e9745-8ead-4c6d-b023-90c9a112951b">
+    <con:settings/>
+    <con:config service="Swagger Petstore" resourcePath="/v2/pet" methodName="addPet" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="addPet - Request 1" id="c4df676b-5b44-445e-8340-af61d8285619" mediaType="application/json" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>http://petstore.swagger.io</con:endpoint>
+        <con:request>{
+	"message":"huxley"
+}</con:request>
+        <con:originalUri>http://petstore.swagger.io/v2/pet</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
