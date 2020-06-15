@@ -2,5 +2,5 @@ TestSuite-1\Subscribe-to-topics.xml
 TestSuite-1\First-Publisher.xml
 TestSuite-1\Second-Publisher.xml
 TestSuite-1\TestCase-1.xml
-TestSuite-2\TestCase-1.xml
+TestSuite-2\another-conflict-maybe.xml
 Load-Test-1.xml
