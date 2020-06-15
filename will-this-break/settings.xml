@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="1f8d5592-05b3-44f3-929b-b6c046430c53" name="will this break" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="1f8d5592-05b3-44f3-929b-b6c046430c53fileName">will-this-break</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
