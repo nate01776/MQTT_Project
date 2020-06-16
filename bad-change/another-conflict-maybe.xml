@@ -12,7 +12,7 @@
         </con:settings>
         <con:endpoint>http://petstore.swagger.io</con:endpoint>
         <con:request>{
-	"message":"double huxley"
+	"message":"double double huxley"
 }</con:request>
         <con:originalUri>http://petstore.swagger.io/v2/pet</con:originalUri>
         <con:credentials>
