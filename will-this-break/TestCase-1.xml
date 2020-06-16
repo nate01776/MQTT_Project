@@ -3,6 +3,9 @@
   <con:settings>
     <con:setting id="9cb0d7eb-1447-407e-bc14-fbe9012a8beffileName">TestCase-1</con:setting>
   </con:settings>
+  <con:testStep type="MQTTReceiveTestStep" name="Receive MQTT Message" id="26d0f9b2-fb71-4a09-9f2a-58546b0407ba">
+    <con:settings/>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>

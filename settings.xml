@@ -3,13 +3,23 @@
   <con:description>MQTT Project to validate</con:description>
   <con:settings>
     <con:setting id="bed04c96-8f3c-45f8-b03d-e7b7b984cf9afileName">MQTT-Project</con:setting>
+    <con:setting id="ProjectSettings@hermesConfig">C:\Users\nathan.wright/.hermes</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
-  <con:jmsConnectionContainer/>
+  <con:jmsConnectionContainer>
+    <con:jmsConnection>
+      <con:name>newserver</con:name>
+      <con:extraProperties/>
+    </con:jmsConnection>
+    <con:jmsConnection>
+      <con:name>test</con:name>
+      <con:extraProperties/>
+    </con:jmsConnection>
+  </con:jmsConnectionContainer>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
